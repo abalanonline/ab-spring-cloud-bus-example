@@ -65,12 +65,6 @@
       <artifactId>spring-cloud-bus</artifactId>
     </dependency>
 
-    <dependency>
-      <groupId>com.maciejwalkowiak</groupId>
-      <artifactId>spring-cloud-stream-binder-sqs</artifactId>
-      <version>1.1.0.BUILD-SNAPSHOT</version>
-    </dependency>
-
     <!-- lombok -->
     <dependency>
       <groupId>org.projectlombok</groupId>
