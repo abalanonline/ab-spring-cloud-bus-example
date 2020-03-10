@@ -14,9 +14,4 @@ public class DummyMessageProducer implements MessageProducer {
   private ConsumerDestination destination;
   private String group;
   private ExtendedConsumerProperties<DummyConsumerProperties> properties;
-
-  @Override
-  public void setOutputChannelName(String outputChannel) {
-    int i = 1/0;
-  }
 }

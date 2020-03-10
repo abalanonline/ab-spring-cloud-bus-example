@@ -1,1 +1,1 @@
-sqs: org.springframework.cloud.stream.binder.sqs.config.SqsBinderConfiguration
+dummy: org.springframework.cloud.stream.binder.dummy.DummyBinderConfiguration
