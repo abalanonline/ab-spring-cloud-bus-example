@@ -30,7 +30,7 @@ public class BusListener implements ApplicationListener<RemoteApplicationEvent> 
   public void onApplicationEvent(RemoteApplicationEvent event) {
     if (event instanceof AckRemoteApplicationEvent) return;
     if (event instanceof UnknownRemoteApplicationEvent) {
-      log.info(((UnknownRemoteApplicationEvent) event).getTypeInfo());
+      log.info("RemoteEvent-" + ((UnknownRemoteApplicationEvent) event).getTypeInfo());
     } else {
       log.info(event.getClass().getName());
     }
