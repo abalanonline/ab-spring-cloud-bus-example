@@ -65,6 +65,12 @@
       <artifactId>spring-cloud-bus</artifactId>
     </dependency>
 
+    <dependency>
+      <groupId>info.ab</groupId>
+      <artifactId>ab-spring-cloud-stream-binder-bunny</artifactId>
+      <version>1.0.0.RELEASE</version>
+    </dependency>
+
     <!-- lombok -->
     <dependency>
       <groupId>org.projectlombok</groupId>
